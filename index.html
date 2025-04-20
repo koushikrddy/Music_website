@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify - Your Favourite Music</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo -3 png.jpg" alt="Spotify" />Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Best of NCS - No Copyright Songs</h1>
+    <div id="songList"></div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" id="myProgressBar" min="0" value="0" max="100" />
+    <div class="icons">
+      <i class="fas fa-3x fa-step-backward" id="prev"></i>
+      <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+      <i class="fas fa-3x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <!-- <img src="playing.gif" width="50px" id="gif" /> -->
+      <span id="currentSong">Apna Bana Le</span>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
